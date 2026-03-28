@@ -1,0 +1,94 @@
+.contact .center{
+	text-align: center;
+	padding: 0 0 2.5rem;
+}
+
+/* .center h3{
+	font-family: var(--font4);
+	font-size: 2.5rem;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	margin-bottom: .5rem;
+} */
+
+.center p{
+	font-size: clamp(1.3rem, 3vw, 1.4rem);
+}
+
+.contact{
+	padding: 2.5rem 0;
+}
+
+.contact .contact-form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1.5px solid transparent;
+	border-radius: 10px;
+	box-shadow: 0 0 10px var(--color3);
+}
+.contact .contact-form:hover{
+	border-color: var(--color3);
+	box-shadow: 0 0 15px var(--color3);
+}
+
+.contact form{
+    width: 100%;
+	background: url(../imgs/binary-code.jpg) no-repeat, #333;
+	background-position: center;
+	background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+input,
+textarea{
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background: transparent;
+	border: 1.5px solid transparent;
+	box-shadow: 0 0 10px var(--color3);
+    border-radius: 5px;
+    color: var(--color2);
+}
+
+textarea{
+	height: 20rem;
+	resize: none;
+	margin-bottom: 2.5rem;
+}
+
+input:focus, textarea:focus{
+	border-color: var(--color3);
+	box-shadow: 0 0 15px var(--color3);
+}
+
+input::placeholder, textarea::placeholder{
+	font-size: 1.4rem;
+	color: var(--color4);
+	opacity: .8;
+}
+
+button{
+	font-family: var(--font1);
+	font-size: 1.4rem;
+	font-weight: 500;
+	background: var(--color3);
+	border: 1.5px solid var(--color3);
+	border-radius: 5px;
+	padding: 1.5rem;
+	cursor: pointer;
+	transition: .3s ease-in-out;
+}
+button:hover{
+	background: transparent;
+	color: var(--color3);
+	border: 1.5px solid var(--color3);
+	box-shadow: 0 0 15px var(--color3);
+}

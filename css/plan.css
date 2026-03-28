@@ -1,0 +1,133 @@
+.inquiry-section{
+	padding: 5rem 0 0;
+	border: 1.5px solid transparent !important;
+}
+
+/* INQUIRY FORM STYLING */
+.form-container {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 1.5rem;
+}
+
+.form-container .plan-name{
+	font-size: 2rem;
+	margin-bottom: 2.5rem;
+	padding: 0 1.5rem;
+}
+
+.inquiry-form {
+    text-align: left !important; /* Overrides section center-align */
+    max-width: 550px !important; /* Slightly wider than the pricing card for readability */
+    flex: 0 1 550px !important;
+}
+
+.input-group {
+    margin-bottom: 2rem;
+	padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.input-group label {
+    font-size: 1.3rem;
+    color: var(--color3);
+    font-weight: 500;
+}
+
+.input-group input, 
+.input-group select, 
+.input-group textarea {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    padding: 1.2rem;
+    color: var(--color2);
+    font-family: var(--font1);
+    font-size: 1.3rem;
+    transition: 0.3s;
+}
+
+.input-group input:focus, 
+.input-group textarea:focus {
+    border-color: var(--color3);
+    box-shadow: 0 0 15px var(--color3);
+}
+
+.plan-price{
+	font-size: 1.5rem;
+	font-weight: 500;
+	background: var(--color3);
+    color: var(--color1);
+	padding: 1rem;
+	box-shadow: 0 0 10px var(--color1);
+	border-radius: 10px;
+}
+
+.payment-notice {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    background: rgba(17, 17, 17, 0.6);
+	font-size: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    border-left: 3px solid var(--color3);
+	box-shadow: 0 0 5px var(--color3);
+    margin-bottom: 2.5rem;
+}
+
+.payment-notice i {
+    font-size: 1.8rem;
+    color: var(--color3);
+}
+
+.payment-notice p {
+    font-size: 1.2rem !important;
+    margin: 0 !important;
+    text-align: left;
+}
+
+.submit-btn {
+    width: 100%;
+    background: var(--color3);
+    color: var(--color1);
+    border: 1.5px solid var(--color3);
+    padding: 1.5rem;
+	margin-top: 1.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: transparent;
+    color: var(--color3);
+    box-shadow: 0 0 15px var(--color3);
+}
+
+.back-to-home{
+	position: absolute;
+	font-size: 3rem;
+	left: 1.5rem;
+	top: .5rem;
+	padding: 0;
+	color: var(--color3);
+	/* display: none; */
+}
+
+.back-to-home i{
+	background: var(--color1);
+	border: 3px solid var(--color3);
+	border-radius: 50%;
+	transition: .2s ease-in-out;
+}
+
+.back-to-home i:hover{
+	color: var(--color1);
+	background: var(--color3);
+	box-shadow: 0 0 15px var(--color3);
+}

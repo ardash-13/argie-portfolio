@@ -1,0 +1,47 @@
+@media (max-width: 900px) {
+	.project-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.back-to-top{
+			right: 1rem;
+	}
+}
+
+@media (max-width: 600px) {
+	h2 i{
+		margin-inline: .5rem;
+	}
+
+	.header p, .project-section p{
+		font-size: 1.4rem;
+	}
+
+	.project-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.socials{
+		gap: 3rem;
+	}
+	
+	.back-to-top{
+		right: .5rem;
+	}
+}
+
+@media (max-width: 480px) {
+    .plan {
+        flex: 0 1 260px; /* Even slimmer on tiny phones */
+        max-width: 260px;
+    }
+
+	.contact .contact-form{
+		padding: 3rem 1.5rem;
+	}
+
+	.footer p, .footer .a{
+		font-size: 1.2rem;
+	}
+
+}

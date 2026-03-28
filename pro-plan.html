@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-PH">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Pro Plan | Managed Business Solutions</title>
+
+	<link rel="shortcut icon" href="imgs/bg.png" type="image/x-icon">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/plan.css">
+
+	<script src="js/script.js" defer></script>
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-126LHEKE1Y"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-126LHEKE1Y');
+	</script>
+</head>
+<body>
+	<a href="https://linkg-rg.netlify.app/#service-plan" class="back-to-home"><i class="ri-arrow-left-line"></i></a>
+
+	
+	<section class="inquiry-section" id="order-form">
+		<h3>Scale Your Business Online</h3>
+		<p>Switch to professional management. I'll handle the tech so you can focus on growth.</p>
+
+		<div class="form-container">
+			<!-- Note: Use the same Formspree ID or a separate one for Pro leads -->
+			<form action="https://formspree.io/f/mgolnpbj" method="POST" class="plan inquiry-form pro-card" onsubmit="gtag('event', 'pro_inquiry_submit', {event_category: 'conversion', event_label: 'Pro Management Inquiry'});">
+				<h4 class="plan-name">Pro Management Plan</h4>
+				
+				<div class="input-group">
+					<label for="name">Business / Full Name</label>
+					<input type="text" id="name" name="name" placeholder="e.g. Dela Cruz Affiliate Shop" required>
+				</div>
+				
+				<div class="input-group">
+					<label for="email">Contact Email</label>
+					<input type="email" id="email" name="email" placeholder="e.g. info@business.com" required>
+				</div>
+
+				<div class="input-group">
+					<label for="plan-choice">Selected Plan</label>
+					<div class="plan-price">- Pro Plan ($50 - $100/mo) -</div>
+					<!-- <div class="plan-price">- Pro Plan (₱7,999/mo) -</div> -->
+				</div>
+
+				<div class="input-group">
+					<label for="requirements">Technical Requirements / Current Site</label>
+					<textarea id="requirements" name="requirements" rows="3" placeholder="Enter your current website URL or specific features you need managed..."></textarea>
+				</div>
+
+				<div class="payment-notice">
+					<i class="ri-shield-check-line"></i>
+					<p>Includes Managed Hosting & Security. Monthly billing starts after the initial setup is complete.</p>
+				</div>
+
+				<button type="submit" class="submit-btn">Submit Request</button>
+			</form>
+		</div>
+	</section>
+
+	
+	<footer>
+		<div class="socials">
+			<a href="https://www.facebook.com/argie.piamonte.35" target="_blank"><i class="ri-facebook-line fb"></i></a>
+			<a href="https://www.instagram.com/iamrg369/" target="_blank"><i class="ri-instagram-line"></i></a>
+			<a href="https://x.com/ArgiePiamonte" target="_blank"><i class="ri-twitter-x-line x"></i></a>  
+			<a href="https://www.linkedin.com/in/argie-piamonte-06aba71b9/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+		</div>
+
+		<p>Copyright © 2026 Argie Piamonte. All Rights Reserved.</p>
+		<a href="privacy-policy.html" class="a">Privacy Policy</a>
+	</footer>
+</body>
+</html>
